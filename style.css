@@ -1,0 +1,98 @@
+body {
+  font-family: lato;
+  text-align: center;
+  background-color: rgb(245, 240, 240);
+  margin: 0;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(63, 59, 59);
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  padding-top: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 25px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 650;
+  text-align: left;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+  color: grey;
+  margin-top: 3px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.travaux {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 8px 10px rgb(230, 226, 226);
+  margin: 0px;
+}
+
+.travail img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.travail {
+  padding: 8px;
+  padding-bottom: 50px;
+}
+
+.menu {
+  font-size: 12px;
+  display: flex;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-around;
+  font-weight: 650;
+  letter-spacing: 1px;
+  padding-top: 12px;
+}
+
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hello {
+  font-size: 12px;
+  display: flex;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-around;
+  font-weight: 650;
+  letter-spacing: 1px;
+  padding-top: 12px;
+}
+
+.hello hover {
+  background-color: rgb(235, 12, 12);
+}
